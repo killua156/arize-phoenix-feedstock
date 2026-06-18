@@ -60,7 +60,12 @@ requirements:
     - psutil
     - pyarrow
     - pydantic >=2.1.0,<3
-    - pydantic-ai-slim >=1.87.0
+    - pydantic-ai-slim >=1.95.0
+    - anthropic
+    - boto3
+    - aioboto3
+    - openai
+    - tiktoken
     - pystache
     - python-dateutil
     - python-multipart
@@ -77,6 +82,7 @@ requirements:
     - uvicorn
     - websockets
     - wrapt >=1.17.2
+
 
 
 test:
